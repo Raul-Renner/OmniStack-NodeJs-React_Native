@@ -8,7 +8,7 @@ const app = express();
 // to informando a express que estou utilizando JSON para as requisicoes
 // to falando,"EXPRESS,TO ENVIANDO UM ARQUIVO JSON COMO REQUEST, VAI NO CORPO DA MINHA APLICACAO E CONVERTE ISSO PRA JS
 // PRA QUE SEJA ENTENDIDO EM ALGO PELA APLICACAO"
-app.use(cors());
+app.use(cons());
 app.use(express.json());
 app.use(routes);
 app.listen(3333);
